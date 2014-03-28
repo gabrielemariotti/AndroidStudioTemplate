@@ -3,6 +3,7 @@
 **SwipeRefreshLayout**: Creates a new blank activity with a SwipeRefreshLayout.
 
 Copy `SwipeRefreshLayout` folder in your Android Studio installation in this folder: ${AndroidStudio}/plugins/android/lib/templates/activities
+
 Restart Android Studio, and you will find it in: New -> Activity -> SwipeRefreshLayout
 
 ![Screen](https://github.com/gabrielemariotti/AndroidStudioTemplate/raw/master/SwipeRefreshLayout.png)
