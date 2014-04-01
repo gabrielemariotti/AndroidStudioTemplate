@@ -26,7 +26,7 @@ public class ${activityClass} extends ${(appCompat?has_content)?string('ActionBa
 	
 	@Override
     public void onRefresh() {
-        //Write your logic here
+        // TODO:Write your logic here
 		//Call hideRefreshProgress(); to notify the widget that refresh state has ended
     }
 
