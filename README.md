@@ -2,25 +2,25 @@
 
 A small collection of Android Studio templates for Android development.
 
-To use these templates you will need Android Studio. Copy the appropriate folders into <androidStudio-folder>/plugins/android/lib/templates/ and they will appear in the project explorer context menu under: **New > ** 
+To use these templates you will need Android Studio. Copy the appropriate folders into `<androidStudio-folder>/plugins/android/lib/templates/` and they will appear in the project explorer context menu.
 
 
 ### SwipeRefreshLayout
 
-Creates a new blank activity with a SwipeRefreshLayout.
+Creates a new blank activity with a [SwipeRefreshLayout](http://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html).
 
-Copy `SwipeRefreshLayout` folder in your Android Studio installation in this folder: ${AndroidStudio}/plugins/android/lib/templates/activities
+Copy `SwipeRefreshLayout` folder in your Android Studio installation in this folder: `<androidStudio-folder>/plugins/android/lib/templates/activities`
 
-Restart Android Studio, and you will find it in: New -> Activity -> SwipeRefreshLayout
+Restart Android Studio, and you will find it in: **New -> Activity -> SwipeRefreshLayout**
 
 ![Screen](https://github.com/gabrielemariotti/AndroidStudioTemplate/raw/master/SwipeRefreshLayout.png)
 
 
 ### Custom
 
-Copy the `custom` folder in your Android Studio installation in this folder: ${AndroidStudio}/plugins/android/lib/templates/
+Copy the `custom` folder in your Android Studio installation in this folder: `<androidStudio-folder>/plugins/android/lib/templates/`
 
-Restart Android Studio, and you will find it in: New -> Adapter
+Restart Android Studio, and you will find it in: **New -> Adapter**
 
 
 It contains these templates:
