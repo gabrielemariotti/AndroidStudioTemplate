@@ -40,13 +40,15 @@ public class ${adapterClass} extends ArrayAdapter<${itemClass}> {
 		// A ViewHolder keeps references to children views to avoid unneccessary calls
         // to findViewById() on each row.
         ViewHolder holder;
-        LayoutInflater mInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
 		// When convertView is not null, we can reuse it directly, there is no need
         // to reinflate it. We only inflate a new View when the convertView supplied
         if (convertView == null) {
 
             convertView = mInflater.inflate(R.layout.${layoutName}, parent, false);
+
+            // Creates a ViewHolder and store references to the two children views
+            // we want to bind data to.
             holder = new ViewHolder();
 
             // TODO store references to your views
