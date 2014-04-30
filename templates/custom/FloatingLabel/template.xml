@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<template
+    format="3"
+    revision="1"
+    name="Floating Label"
+    minApi="7"
+    minBuildApi="14"
+    description="Creates a Floating Label Layout.">
+
+    <category value="Custom View" />
+
+	<parameter
+		id="floatLabelLayoutClass"
+        name="FloatLabelLayout Class"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="FloatLabelLayout"
+        help="The name of the float label layout class to create" />
+		
+	<parameter
+        id="packageName"
+        name="Package name"
+        type="string"
+        constraints="package"		
+        default="com.mycompany.myapp" />
+
+	<parameter
+        id="isActivityAdded"
+        name="Activity with an example"
+        type="boolean"
+        default="false"
+        help="If true, an activity with an example will be created" />
+		
+    <parameter
+		id="activityClass"
+        name="Activity Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        suggest="${layoutToActivity(layoutActivityName)}"
+        default="CustomFloatLabelLayoutActivity"
+		visibility="isActivityAdded"
+		help="The name of the activity class to create" />
+
+    <parameter
+        id="layoutActivityName"
+        name="Layout Name"
+        type="string"
+        constraints="layout|unique|nonempty"
+        suggest="${activityToLayout(activityClass)}"
+        default="activity_layout"
+		visibility="isActivityAdded"
+        help="The name of the layout to create for the activity" />
+
+    <parameter
+        id="activityTitle"
+        name="Title"
+        type="string"
+        constraints="nonempty"
+        default="MainActivity"
+        suggest="${activityClass}"	
+		visibility="isActivityAdded"		
+        help="The name of the activity. For launcher activities, the application title." />
+
+		
+    <!-- 128x128 thumbnails relative to template.xml -->
+    <thumbs>
+        <!-- default thumbnail is required -->
+        <thumb>templates_floating.png</thumb>
+        
+    </thumbs>
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>

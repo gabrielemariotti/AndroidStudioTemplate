@@ -29,7 +29,7 @@ Restart Android Studio, and you will find it in: **New -> Activity -> SwipeRefre
 
 Copy the `custom` folder in your Android Studio installation in this folder: `<androidStudio-folder>/plugins/android/lib/templates/`
 
-Restart Android Studio, and you will find it in: **New -> Adapter**
+Restart Android Studio, and you will find it in: **New -> xxxx**
 
 
 It contains these templates:
@@ -37,8 +37,21 @@ It contains these templates:
  - **Array Adapter**: Creates a new Custom Array Adapter with a ViewHolder pattern.
 
  - **Array Adapter + Activity**: Creates a new Custom Array Adapter with a ViewHolder pattern, and an Activity with a List.
+ 
+ - **FloatingLabelLayout**: Creates a Floating Label Layout based on [FloatingLabelLayout] code by [Chris Banes]. You can read more info in this [post](https://plus.google.com/+ChrisBanes/posts/5Ejaq51UWGo). ( in: **New -> Custom View**)
 
  
+## ChangeLog
+
+* [Changelog:](https://github.com/gabrielemariotti/AndroidStudioTemplate/tree/master/CHANGELOG.md) A complete changelog
+
+
+Acknowledgements
+--------------------
+
+* Thanks to [Chris Banes] for [FloatingLabelLayout] class.
+
+
 Credits
 -------
 
@@ -79,3 +92,5 @@ License
 
 [SwipeRefreshLayout]:https://github.com/gabrielemariotti/AndroidStudioTemplate#swiperefreshlayout
 [Custom]:https://github.com/gabrielemariotti/AndroidStudioTemplate#custom
+[Chris Banes]:https://plus.google.com/+ChrisBanes
+[FloatingLabelLayout]:https://gist.github.com/chrisbanes/11247418

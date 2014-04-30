@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <template
     format="3"
-    revision="4"
+    revision="1"
     name="CustomArrayAdapter + Activity"
     minApi="7"
     minBuildApi="14"

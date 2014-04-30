@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <template
     format="4"
-    revision="2"
+    revision="1"
     name="Custom ArrayAdapter"
     description="Creates a new array adapter with the ViewHolder pattern"
     minApi="7"
