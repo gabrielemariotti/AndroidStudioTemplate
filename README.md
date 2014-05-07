@@ -51,7 +51,7 @@ It contains these templates:
 Acknowledgements
 --------------------
 
-* Thanks to [Chris Banes] for [FloatingLabelLayout] class.
+* Thanks to [Chris Banes] for [FloatingLabelLayout] and [ForegroundLinearLayout] classes.
 
 
 Credits
