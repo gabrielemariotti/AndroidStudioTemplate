@@ -40,6 +40,8 @@ It contains these templates:
  
  - **FloatingLabelLayout**: Creates a Floating Label Layout based on [FloatingLabelLayout] code by [Chris Banes]. You can read more info in this [post](https://plus.google.com/+ChrisBanes/posts/5Ejaq51UWGo). ( in: **New -> Custom View**)
 
+ - **ForegroundLinearLayout**: Creates a LinearLayout with foreground functionality where you can draw the stateful drawable on top. This template is base on [ForegroundLinearLayout] code by  [Chris Banes]. ( in: **New -> Custom View**)
+ 
  
 ## ChangeLog
 
@@ -94,3 +96,4 @@ License
 [Custom]:https://github.com/gabrielemariotti/AndroidStudioTemplate#custom
 [Chris Banes]:https://plus.google.com/+ChrisBanes
 [FloatingLabelLayout]:https://gist.github.com/chrisbanes/11247418
+[ForegroundLinearLayout]:https://gist.github.com/chrisbanes/9091754
