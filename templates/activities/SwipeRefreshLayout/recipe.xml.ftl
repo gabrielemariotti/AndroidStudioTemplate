@@ -2,7 +2,7 @@
 <recipe>
 
     <#if appCompat?has_content><dependency mavenUrl="com.android.support:appcompat-v7:19.+"/></#if>    
-    <dependency mavenUrl="com.android.support:support-v4:19.+"/>
+    <dependency mavenUrl="com.android.support:support-v4:19.1.+"/>
 
     <merge from="AndroidManifest.xml.ftl"
              to="${escapeXmlAttribute(manifestOut)}/AndroidManifest.xml" />
