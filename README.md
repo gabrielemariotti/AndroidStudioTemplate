@@ -42,6 +42,7 @@ It contains these templates:
 
  - **ForegroundLinearLayout**: Creates a LinearLayout with foreground functionality where you can draw the stateful drawable on top. This template is base on [ForegroundLinearLayout] code by  [Chris Banes]. ( in: **New -> Custom View**)
  
+ - **Custom RecyclerView Adapter**: Creates the skeleton of a RecyclerView adapter.
  
 ## ChangeLog
 
