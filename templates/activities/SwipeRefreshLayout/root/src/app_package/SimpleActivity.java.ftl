@@ -16,7 +16,7 @@ public class ${activityClass} extends ${(appCompat?has_content)?string('ActionBa
         super.onCreate(savedInstanceState);
         setContentView(R.layout.${layoutName});
 		mSwipeRefreshWidget = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_widget);
-        mSwipeRefreshWidget.setColorScheme(R.color.color1, R.color.color2, R.color.color3,
+        mSwipeRefreshWidget.setColorSchemeResources(R.color.color1, R.color.color2, R.color.color3,
                 R.color.color4);
         mSwipeRefreshWidget.setOnRefreshListener(this);
 		
