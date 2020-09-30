@@ -44,7 +44,7 @@ It contains these templates:
  
  - **Custom RecyclerView Adapter**: Creates the skeleton of a RecyclerView adapter.
 
- - **Custom RecyclerView Adapter + Actiivty**: Creates the skeleton of a RecyclerView Adapter and an Activity with a RecyclerView.
+ - **Custom RecyclerView Adapter + Activity**: Creates the skeleton of a RecyclerView Adapter and an Activity with a RecyclerView.
  
 ## ChangeLog
 
